@@ -23,17 +23,17 @@ tags:
   - Yield prediction
 leaderboard:
     - id: 1
-    schema:
-      {
-        "labels": ["Mean_r"],
-        "default_order_by": "Mean_r",
-        "metadata": {
-          "Mean_r": {
-            "sort_ascending": False,
-            "description": "Average of within-environment Pearson r scores",
+      schema:
+        {
+          "labels": ["Mean_r"],
+          "default_order_by": "Mean_r",
+          "metadata": {
+            "Mean_r": {
+              "sort_ascending": False,
+              "description": "Average of within-environment Pearson r scores",
+            }
           }
         }
-      }
 
 challenge_phases:
   - id: 1
